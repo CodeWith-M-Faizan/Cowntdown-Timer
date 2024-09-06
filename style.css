@@ -1,0 +1,43 @@
+body {  
+    font-family: Arial, sans-serif;  
+}  
+
+input {  
+    width: 20%;  
+    height: 20px;
+}  
+
+button {  
+    cursor: pointer;  
+}
+.main{
+    text-align: center;
+    padding: 10%;
+    width:70%;
+}
+.start , .pause , .set , .reset{
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+}
+.set:hover{
+    background-color: khaki;
+    color: black;
+}
+.start:hover{
+    background-color: green;
+    color: white;
+  
+}
+.pause:hover{
+    background-color: red;
+    color: white;
+}
+.reset:hover{
+    background-color: yellow;
+    color: black;
+}
+.timer{
+    font-size:100px;
+    margin: 20px;
+}
